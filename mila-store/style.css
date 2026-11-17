@@ -1,0 +1,33 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; background: #f6f6f6; color: #111; }
+.topbar { background: #111; color: #fff; padding: 16px 12px 12px; position: sticky; top: 0; z-index: 5; }
+.topbar-inner { max-width: 900px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+h1 { font-size: 20px; margin: 0; }
+.tagline { margin: 4px 0 0; font-size: 13px; opacity: 0.8; }
+.chat-shop { background: #25D366; color: #062b16; font-weight: 700; text-decoration: none; padding: 10px 14px; border-radius: 999px; font-size: 14px; white-space: nowrap; }
+.search-row { max-width: 900px; margin: 12px auto 0; display: flex; gap: 10px; align-items: center; }
+#searchInput { flex: 1; padding: 12px; border-radius: 10px; border: 0; font-size: 15px; background: #fff; color: #111; }
+#searchInput::placeholder { color: #888; }
+.avail-only { font-size: 13px; display: flex; gap: 6px; align-items: center; white-space: nowrap; }
+.count { max-width: 900px; margin: 8px auto 0; font-size: 12px; opacity: 0.7; }
+main { max-width: 900px; margin: 0 auto; padding: 12px; }
+.grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+@media (min-width: 700px) { .grid { grid-template-columns: repeat(3, 1fr); } h1 { font-size: 24px; } }
+.card { background: #fff; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column; }
+.card img { width: 100%; aspect-ratio: 1/1; object-fit: cover; background: #ddd; }
+.card-body { padding: 10px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+.pname { font-size: 14px; font-weight: 600; margin: 0; }
+.price { font-weight: 800; font-size: 15px; }
+.sizes { font-size: 12px; color: #555; }
+.badge { font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 999px; display: inline-block; }
+.badge.ok { background: #e6f9ec; color: #0a7a2e; }
+.badge.out { background: #ffe3e3; color: #a00; }
+select.size-pick { padding: 8px; border-radius: 8px; border: 1px solid #ccc; font-size: 13px; }
+.btn-row { display: flex; gap: 6px; margin-top: auto; }
+.order-btn { flex: 1; background: #25D366; border: 0; border-radius: 10px; padding: 11px; font-weight: 800; font-size: 14px; cursor: pointer; text-align: center; text-decoration: none; color: #062b16; }
+.order-btn.disabled { background: #ccc; color: #666; pointer-events: none; }
+.share-btn { border: 1px solid #ddd; background: #fff; border-radius: 10px; padding: 11px; cursor: pointer; font-size: 14px; }
+.empty { text-align: center; padding: 40px 10px; color: #666; }
+.single-wrap { margin: 10px 0; }
+.back-btn { border: 0; background: #111; color: #fff; padding: 10px 14px; border-radius: 10px; cursor: pointer; }
+.footer { text-align: center; font-size: 12px; color: #666; padding: 20px 12px 40px; }

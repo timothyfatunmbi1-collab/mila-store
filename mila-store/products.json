@@ -1,0 +1,73 @@
+[
+  {
+    "id": "M01",
+    "name": "I20 Ultra Smartwatch + AirPod Set (7 straps)",
+    "price": 14500,
+    "sizes": [
+      "One size"
+    ],
+    "img": "./img/p1.jpg",
+    "available": true
+  },
+  {
+    "id": "M02",
+    "name": "Broom and Parker Set",
+    "price": 6000,
+    "sizes": [
+      "One size"
+    ],
+    "img": "./img/p2.jpg",
+    "available": true
+  },
+  {
+    "id": "M03",
+    "name": "Silicon Air Fryer Liner",
+    "price": 3000,
+    "sizes": [
+      "One size"
+    ],
+    "img": "./img/p3.jpg",
+    "available": true
+  },
+  {
+    "id": "M04",
+    "name": "Boscon Electric Iron",
+    "price": 10000,
+    "sizes": [
+      "One size"
+    ],
+    "img": "./img/p4.jpg",
+    "available": true
+  },
+  {
+    "id": "M05",
+    "name": "Rechargeable Blender",
+    "price": 18500,
+    "sizes": [
+      "One size"
+    ],
+    "img": "./img/p5.jpg",
+    "available": true
+  },
+  {
+    "id": "M06",
+    "name": "R11 Rechargeable Handheld Fan",
+    "price": 5500,
+    "sizes": [
+      "Purple",
+      "White"
+    ],
+    "img": "./img/p6.jpg",
+    "available": true
+  },
+  {
+    "id": "M07",
+    "name": "Digital Rechargeable Fan",
+    "price": 5500,
+    "sizes": [
+      "Green"
+    ],
+    "img": "./img/p7.jpg",
+    "available": true
+  }
+]
