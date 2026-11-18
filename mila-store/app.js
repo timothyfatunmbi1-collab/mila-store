@@ -3,7 +3,7 @@ const SHOP = {
   name: "Mila Varieties Store",
   tagline: "Varieties store • Order fast on WhatsApp",
   whatsapp: "2349117073171", // <-- REPLACE with her order number, no + or spaces
-  sheetCsv: "", // v2.0: paste published Google Sheet CSV link here. Empty = use products.json.
+  sheetCsv: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRiF9z-5qwlEiPml3z9w5nWF5sUxr5E73zlHVceDt7aFC7vbZvz7AMqdXOVTp55q0DGbxXLcJSSxKtw/pub?gid=0&single=true&output=csv",
   deliveryNote: "Pay on delivery in Lagos. Transfer before waybill outside Lagos."
 };
 
